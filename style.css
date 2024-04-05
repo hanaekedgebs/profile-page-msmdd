@@ -1,0 +1,113 @@
+/* Write some CSS below */
+body {
+    background-color: #BBCBE2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    text-align: center;}
+
+  h1,h2{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+  }
+
+  h1{
+    font-size: 32px;
+    font-weight: 400;
+  }
+  h2{
+    font-size: 24px;
+    color: #666279;
+  }
+.button-purple{
+  text-decoration: none;
+  color :white;
+  background-color: #666279;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+a:hover{
+    background-color:white;
+    color:#666279
+  }
+
+
+
+div {
+    margin: 40px 0;
+  }
+
+.img-circle{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+ }
+.img-carre{ 
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+li{
+    list-style: none;
+ }
+ul{
+    padding-left: 0;
+}  
+
+p{
+    margin-bottom: 30px;
+}
+
+.button-img{
+    text-decoration: none;
+
+  }
+.list-inligne li{
+    display: inline;
+    padding: 30px;
+
+}  
+.list-word li {display: inline;
+    text-align: center;
+
+}  
+.card-large {
+    background-color: white;
+    box-shadow: 0 10px 20px rgda(0,0,0,0.1);
+    padding: 40px;
+    border-radius: 5px;
+} 
+
+.container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.card-voyage {
+    background-color: white;
+    box-shadow: 0 10px 20px rgda(0,0,0,0.1);
+    padding: 40px;
+    border-radius: 5px;
+}  
+.cart-align {
+    display: flex;
+    justify-content: space-between; 
+}  
+
+.cart-align div{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+} 
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
